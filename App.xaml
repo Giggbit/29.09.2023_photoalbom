@@ -1,0 +1,9 @@
+﻿<Application x:Class="_29._09._2023_Элементы_управления_содержимым.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:_29._09._2023_Элементы_управления_содержимым"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

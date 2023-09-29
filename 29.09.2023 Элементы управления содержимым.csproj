@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>_29._09._2023_Элементы_управления_содержимым</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="cat1.jpeg" />
+    <None Remove="cat2.jpeg" />
+    <None Remove="cat3.jpeg" />
+    <None Remove="cat4.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="cat1.jpeg" />
+    <Resource Include="cat2.jpeg" />
+    <Resource Include="cat3.jpeg" />
+    <Resource Include="cat4.jpg" />
+  </ItemGroup>
+
+</Project>
